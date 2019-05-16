@@ -20,7 +20,7 @@ sass.compiler = require('node-sass');
 
 function styles() {
     return gulp.src(scssFiles)
-                .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+                .pipe(sass(/*{outputStyle: 'compressed'}*/).on('error', sass.logError))
                 .pipe(autoprefixer({
                     browsers: ['last 2 versions'],
                     cascade: false

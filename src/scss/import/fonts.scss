@@ -1,7 +1,7 @@
 @font-face { 
     font-family: 'OpenSans';
-    src: url(/build/fonts/OpenSans-Regular.ttf) format("truetype"),
-         url(/build/fonts/OpenSans-Regular.woff) format("woff");
+    src: url(/static/fonts/OpenSans-Regular.ttf) format("truetype"),
+         url(/static/fonts/OpenSans-Regular.woff) format("woff");
 		font-weight: 400;
 		font-style: normal;
 }
@@ -9,8 +9,8 @@
 
 @font-face { 
     font-family: 'OpenSans';
-    src: url(/build/fonts/OpenSans-Bold.ttf) format("truetype"),
-         url(/build/fonts/OpenSans-Bold.woff) format("woff");
+    src: url(/static/fonts/OpenSans-Bold.ttf) format("truetype"),
+         url(/static/fonts/OpenSans-Bold.woff) format("woff");
 		font-weight: 700;
 		font-style: normal;
 }
